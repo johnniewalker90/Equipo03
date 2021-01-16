@@ -1,0 +1,175 @@
+html{
+    font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Cantarell', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+    font-size: 62.5%;     /* Normalizar para REMS */
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+/* Principales */
+h1{
+    font-size: 4rem;
+
+}
+h2{
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.espacio{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* header */
+
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+/* navegacion */
+.navegacion a{
+    color: rgb(32, 27, 27);
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin-right: 5rem;
+}
+
+.navegacion a:hover{
+    color: rgb(47, 46, 53); /* Color de menú */
+}
+
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+.razones{
+    flex-basis:calc(25% - 2rem);
+    text-align: center;
+}
+
+/* oferta de servicios */
+.oferta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio{
+    flex-basis: calc(25% - 1rem);
+    border-style: dotted;
+    border-color: grey;
+    border-width: .2rem;
+    border: .1rem solid gray;
+}
+
+.contenido-servicio{
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenido-servicio p,
+.contenido-servicio h3{
+    margin: 0;
+}
+
+/* nuestros números */
+.imagen-contacto{
+    background-color: rgb(193, 122, 17);
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.contenido-contacto{
+    font-size: 2.6rem;
+}
+
+/* Seccion inferior */
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+.texto-entrada a{
+    color: rgb(33, 32, 30);
+    text-decoration: none;
+}
+.texto-entrada h4{
+    margin: 0;
+}
+.texto-entrada h4::after{
+    content: "" ;
+    display: block;
+    width: 100%;
+    height: .5rem;
+    background-color: rgb(232, 133, 12);
+}
+
+/* Testimoniales */
+.testimonial{
+    background-color: rgb(147, 88, 17);
+    font-size: 2.8rem;
+    padding: 6rem;
+    color: white;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    font-style: italic;
+}
