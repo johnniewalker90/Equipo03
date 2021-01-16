@@ -1,0 +1,32 @@
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-contacto {
+    display: flex;
+}
+
+
+.texto-entrada {
+    margin-left: 150px;
+}
+
+.imagen-formulario {
+    float: right;
+    margin-top: 1px;
+}
+
+.h2 {
+    
+    
+}
+
+.texto-entrada i{
+    color: orangered;
+    font-size: 40px;
+    float: left;
+    margin-right: 50px;
+}
+
+
