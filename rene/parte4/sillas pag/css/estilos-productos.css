@@ -1,0 +1,355 @@
+    /*@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
+    
+    @font-face {
+        font-family: happyfont;
+        src: url(../fonts/nunito.ttf);
+    }
+    
+    @font-face {
+        font-family: happyfont2;
+        src: url(../fonts/redres.ttf);
+    }
+    
+    body {
+        font-family: happyfont;
+        font-size: 1rem;
+        color: rgb(75, 75, 75);
+        background-color: rgb(247, 247, 247);
+    }
+    
+    .fullwidth {
+        width: 100%;
+    }
+    
+    .fullwidth2 {
+        width: 100%;
+        background-color: white;
+    }
+    /*
+        
+        
+        
+        
+        
+        */
+    /*BARRA DE NAVEGACION*/
+    
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgba(236, 236, 236, 0.9);
+        /*height: 9rem;
+            position: -webkit-sticky;
+            position: sticky;*/
+        top: 0;
+    }
+    
+    .logo-barra img {
+        width: 150px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .navegacion a {
+        color: rgb(218, 77, 49);
+        text-decoration: none;
+        margin: 20px;
+        font-size: 1.5rem;
+        font-family: happyfont2;
+    }
+    
+    .navegacion a:hover {
+        color: rgb(75, 75, 75);
+        border-bottom: 3px rgb(75, 75, 75) solid;
+    }
+    /*
+    
+    
+    
+    
+    
+    */
+    /*BARRA DE BREADCUMS*/
+    
+    header {
+        width: 100%;
+        background-color: rgb(218, 77, 49);
+        height: 75px;
+        /*alinear vertica*/
+        display: flex;
+        align-items: center;
+    }
+    
+    header p {
+        color: white;
+        padding-left: 50px;
+    }
+    /*
+    
+    
+    
+    
+    
+    */
+    /*FOTO DE PRODUCTO*/
+    
+    .fotografias-info {
+        width: 85%;
+        height: auto;
+        /*background-color: teal;*/
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    #contenedor-foto {
+        width: 50%;
+        height: 400px;
+        /*background-color: rgb(37, 212, 212);*/
+        margin: 3rem;
+        /*alinear vertica
+    display: flex;
+    align-items: center;*/
+    }
+    
+    img {
+        width: 100%;
+    }
+    /*
+    
+    
+    
+    
+    
+       */
+    /*INFO DE PRODUCTO*/
+    
+    #contenedor-info {
+        width: 50%;
+        height: 400px;
+        /*background-color: rgb(37, 212, 212);*/
+        margin: 3rem;
+        text-align: center;
+    }
+    
+    article h2 {
+        font-family: happyfont2;
+        font-size: 2rem;
+        color: rgb(218, 77, 49);
+    }
+    
+    article h3 {
+        font-family: happyfont;
+        font-size: 2rem;
+        color: rgb(128, 128, 128);
+        display: inline-flex;
+        margin-right: 2rem;
+    }
+    
+    #tachado {
+        text-decoration: 5px line-through;
+        text-decoration-color: rgb(218, 77, 49);
+        font-weight: 100;
+        color: rgb(170, 170, 170);
+    }
+    
+    article a {
+        background-color: rgb(218, 77, 49);
+        text-decoration: none;
+        padding: 1rem;
+        margin-top: 2rem;
+        display: block;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        border-radius: 25px;
+        width: 200px;
+        font-family: happyfont;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+    }
+    
+    article a:hover {
+        background-color: rgb(128, 128, 128);
+    }
+    /*
+    
+    
+    
+    
+    
+    */
+    /*DESCRIPCION*/
+    
+    .descripcion {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        /*background-color: teal;*/
+        padding-bottom: 5rem;
+    }
+    
+    .tablas {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: 3rem;
+    }
+    
+    .tab {
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 0px 2px;
+        background: rgb(218, 77, 49);
+        display: inline-block;
+        color: #fff;
+        border-radius: 3px 3px 0px 0px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+    }
+    
+    .panels {
+        background: #fffffff6;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+        min-height: 200px;
+        width: 100%;
+        max-width: 85%;
+        border-radius: 3px;
+        overflow: hidden;
+        padding: 20px;
+    }
+    
+    .panel {
+        display: none;
+        animation: fadein .8s;
+    }
+    
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .panel-title {
+        font-size: 1.5em;
+        font-weight: bold
+    }
+    
+    .radio {
+        display: none;
+    }
+    
+    #one:checked~.panels #one-panel,
+    #two:checked~.panels #two-panel,
+    #three:checked~.panels #three-panel {
+        display: block
+    }
+    
+    #one:checked~.tabs #one-tab,
+    #two:checked~.tabs #two-tab,
+    #three:checked~.tabs #three-tab {
+        background: #fffffff6;
+        color: #000;
+        border-top: 3px solid rgb(218, 77, 49);
+    }
+    /*
+    
+    
+    
+    
+    
+    */
+    /*FOOTER*/
+    
+    footer {
+        height: 200px;
+        background-color: gray;
+    }
+    
+    .pie-de-pagina {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    
+    .pie-de-pagina h4 {
+        color: black;
+    }
+    
+    .pie-de-pagina p {
+        color: white;
+    }
+    
+    .pie-de-pagina hr {
+        height: 3px;
+        width: 100%;
+        background-color: rgb(218, 77, 49);
+    }
+    /*
+    
+    
+    
+    
+    
+    */
+    /*boton ir arriba*/
+    
+    .scrollToTop {
+        outline: none;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .scrollToTop svg {
+        display: block;
+    }
+    
+    .scrollToTop {
+        position: fixed;
+        z-index: 9999;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .3s, background .3s, -webkit-transform .3s;
+        transition: transform .3s, opacity .3s, background .3s;
+        transition: transform .3s, opacity .3s, background .3s, -webkit-transform .3s;
+        -webkit-transform: translateY(-2em);
+        transform: translateY(-2em);
+    }
+    
+    .scrollToTop.visible {
+        pointer-events: all;
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    .scrollToTop svg {
+        fill: #ffffff;
+        /* color */
+    }
+    
+    .scrollToTop {
+        background-color: rgb(218, 77, 49);
+        /* fondo */
+        box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+        /* sombra */
+        bottom: 1em;
+        /* separación inferior */
+        right: 1em;
+        /* separación derecha */
+        padding: .5em;
+        /* relleno */
+        border-radius: 4px;
+        /* borde redondeado */
+    }
+    
+    .scrollToTop:hover {
+        background-color: gray;
+        /* fondo (hover) */
+    }
