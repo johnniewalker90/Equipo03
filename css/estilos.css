@@ -418,6 +418,18 @@ footer {
     background-color: rgb(218, 77, 49);
 }
 
+.pie-de-pagina a {
+    text-decoration: none;
+}
+
+#instagram {
+    color: rgb(218, 77, 49);
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+}
+
 
 /*
     
