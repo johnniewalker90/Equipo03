@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos-contacto.css">
+
+    <title>Vintage Room</title>
+</head>
+
+<body>
+    <!-- menu-->
+    <div class="barra logo-barra">
+        <a href="./">
+            <img src="./img/logo-vintage-room.png" alt="Vintage Room">
+        </a>
+        <nav class="navegacion">
+            <a href="./">Inicio</a>
+            <a href="./#rooms">Rooms</a>
+            <a href="./#destacados">Destacados</a>
+            <a href="./#oferta">Oferta del mes</a>
+            <a href="./#combos">Combos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- BARRA DE BREADCUMS-->
+    <header>
+        <h2>Contacto</h2>
+    </header>
+
+
+    <!-- FOTO DE FACHADA Y DATOS DE CONTACTO-->
+    <section class="fotografia-contacto">
+
+        <article id="contenedor-foto">
+            <img src="./img/contacto1.jpg" alt="Fachada de la tienda">
+        </article>
+
+        <!-- DATOS DE CONTACTO-->
+        <article id="contenedor-contacto">
+            <div class="texto-entrada">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>Dirección</h2>
+                <p>Colima 180,Roma Nte., Cuauhtémoc, 06700</p>
+                <p>Ciudad de México, CDMX</p>
+
+                <i class="fas fa-phone-alt"></i>
+                <h2>Teléfono</h2>
+                <p>55 5525 5626</p>
+
+                <i class="fas fa-envelope"></i>
+                <h2>Email</h2>
+                <p>vintageroom@gmail.com</p>
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- FORMULARIO Y MAPA-->
+    <section class="formulario-mapa">
+
+        <!-- FORMULARIO-->
+        <article id="contenedor-formulario">
+            <div class="formulario">
+                <h2>Escribenos</h2>
+                <form action="mailto:johnniewalker90@hotmail.com" method="post" enctype="text/plain">
+                    <ul>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <br>
+                            <input type="text" id="name" name="user_name">
+                        </li><br>
+                        <li>
+                            <label for="mail">Correo electrónico:</label>
+                            <br>
+                            <input type="email" id="mail" name="user_mail">
+                        </li><br>
+                        <li>
+                            <label for="msg">Mensaje:</label>
+                            <br>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li><br>
+                        <li class="button">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </article>
+
+        <!-- MAPA-->
+        <article id="contenedor-mapa">
+            <!--<img src="./img/contacto2.jpg" alt="Fachada de la tienda">-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.7078365073622!2d-99.16105277274599!3d19.419691686891724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a72da472f%3A0x58dc1c5b3a73c70c!2s180%C2%BA%20SHOP!5e0!3m2!1ses-419!2smx!4v1611202011147!5m2!1ses-419!2smx"
+                width="550px" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </article>
+
+    </section>
+
+
+
+    <!--boton ir arriba-->
+    <button id="scrollToTop" data-upspeed='750' data-upshow='100' class="scrollToTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+           <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+           <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+     </button>
+    <script src="./js/interaccion.js" language="javascript" type="text/javascript"></script>
+
+
+
+
+    <!--FOOTER-->
+    <footer class="fullwidth ">
+        <div class="pie-de-pagina ">
+            <artile>
+                <h4>Informes:</h4>
+                <hr>
+                <p>vintageroom@gmail.com</p>
+            </artile>
+            <artile>
+                <h4>Horarios:</h4>
+                <hr>
+                <p>Lunes a viernes de 11 a 5</p>
+                <p>Sábados de 11 a 2</p>
+            </artile>
+            <artile>
+                <h4>Dirección:</h4>
+                <hr>
+                <p>Av. Marina Nacional 52</p>
+                <p>CDMX</p>
+                <p>Tel.: 55 5214 2628</p>
+            </artile>
+            <artile>
+                <h4>Instagram</h4>
+                <hr>
+                <a href="https://www.instagram.com/explore/tags/vintage/" target="_blank">
+                    <p id="instagram">Vintage Room</p>
+                </a>
+            </artile>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+</html>
