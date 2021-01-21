@@ -1,0 +1,362 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
+
+@font-face {
+    font-family: happyfont;
+    src: url(../fonts/nunito.ttf);
+}
+
+@font-face {
+    font-family: happyfont2;
+    src: url(../fonts/redres.ttf);
+}
+
+body {
+    font-family: happyfont;
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+    background-color: #eeeeee;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.fullwidth2 {
+    width: 100%;
+    background-color: white;
+}
+
+
+/*
+        
+        
+        
+        
+        
+        */
+
+
+/*BARRA DE NAVEGACION*/
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(236, 236, 236, 0.9);
+    /*height: 9rem;
+            position: -webkit-sticky;
+            position: sticky;*/
+    top: 0;
+}
+
+.logo-barra img {
+    width: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navegacion a {
+    color: rgb(218, 77, 49);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: happyfont2;
+}
+
+.navegacion a:hover {
+    color: rgb(75, 75, 75);
+    border-bottom: 3px rgb(75, 75, 75) solid;
+}
+
+
+/*
+    
+    
+    
+    
+    
+    */
+
+
+/*BARRA DE BREADCUMS*/
+
+header {
+    width: 100%;
+    background-color: rgb(218, 77, 49);
+    height: 75px;
+    /*alinear vertica*/
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    margin: 0 auto;
+}
+
+
+/*
+    
+    
+    
+    
+    
+    */
+
+
+/*FOTO DE FACHADA*/
+
+.fotografia-contacto {
+    width: 85%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0 auto;
+}
+
+#contenedor-foto {
+    width: 55%;
+    height: auto;
+    /*background-color: rgb(37, 212, 212);*/
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /*alinear vertical
+    display: flex;
+    align-items: center;*/
+}
+
+img {
+    width: 100%;
+}
+
+
+/*DATOS DE CONTACTO*/
+
+#contenedor-contacto {
+    width: 45%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    margin-right: 3rem;
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+article h2 {
+    font-family: happyfont2;
+    font-size: 2rem;
+    color: rgb(218, 77, 49);
+}
+
+article p {
+    font-family: happyfont;
+    font-size: 1rem;
+    color: rgb(53, 53, 53);
+    margin-left: 6rem;
+}
+
+.texto-entrada i {
+    color: rgb(218, 77, 49);
+    font-size: 40px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+/*
+    
+    
+    
+    
+    
+    */
+
+
+/*FORMULARIO Y MAPA*/
+
+.formulario-mapa {
+    width: 85%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0 auto;
+}
+
+#contenedor-formulario {
+    width: 45%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+article h2 {
+    font-family: happyfont2;
+    font-size: 2rem;
+    color: rgb(218, 77, 49);
+}
+
+.texto-entrada i {
+    color: rgb(218, 77, 49);
+    font-size: 40px;
+    float: left;
+    margin-right: 50px;
+}
+
+.formulario input {
+    border-bottom: 2px solid tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(233, 233, 233);
+}
+
+#msg {
+    border-bottom: 2px solid tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(233, 233, 233);
+}
+
+
+/*MAPA*/
+
+#contenedor-mapa {
+    width: 55%;
+    height: auto;
+    /*background-color: rgb(37, 212, 212);*/
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    /*alinear vertical
+    display: flex;
+    align-items: center;*/
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/*
+    
+    
+    
+    
+    
+    */
+
+
+/*FOOTER*/
+
+footer {
+    height: 200px;
+    background-color: gray;
+}
+
+.pie-de-pagina {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.pie-de-pagina h4 {
+    color: black;
+}
+
+.pie-de-pagina p {
+    color: white;
+}
+
+.pie-de-pagina hr {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(218, 77, 49);
+}
+
+.pie-de-pagina a {
+    text-decoration: none;
+}
+
+#instagram {
+    color: rgb(218, 77, 49);
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+}
+
+
+/*
+    
+    
+    
+    
+    
+    */
+
+
+/*boton ir arriba*/
+
+.scrollToTop {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.scrollToTop svg {
+    display: block;
+}
+
+.scrollToTop {
+    position: fixed;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s, background .3s, -webkit-transform .3s;
+    transition: transform .3s, opacity .3s, background .3s;
+    transition: transform .3s, opacity .3s, background .3s, -webkit-transform .3s;
+    -webkit-transform: translateY(-2em);
+    transform: translateY(-2em);
+}
+
+.scrollToTop.visible {
+    pointer-events: all;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.scrollToTop svg {
+    fill: #ffffff;
+    /* color */
+}
+
+.scrollToTop {
+    background-color: rgb(218, 77, 49);
+    /* fondo */
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+    /* sombra */
+    bottom: 1em;
+    /* separación inferior */
+    right: 1em;
+    /* separación derecha */
+    padding: .5em;
+    /* relleno */
+    border-radius: 4px;
+    /* borde redondeado */
+}
+
+.scrollToTop:hover {
+    background-color: gray;
+    /* fondo (hover) */
+}
