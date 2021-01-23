@@ -171,7 +171,8 @@ article h3 {
     color: rgb(170, 170, 170);
 }
 
-article a {
+
+/*article a {
     background-color: rgb(218, 77, 49);
     text-decoration: none;
     padding: 1rem;
@@ -187,6 +188,25 @@ article a {
 }
 
 article a:hover {
+    background-color: rgb(128, 128, 128);
+}*/
+
+input {
+    background-color: rgb(218, 77, 49);
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: block;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    width: 200px;
+    font-family: happyfont;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+input:hover {
     background-color: rgb(128, 128, 128);
 }
 
